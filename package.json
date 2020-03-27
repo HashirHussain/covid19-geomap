@@ -1,7 +1,8 @@
 {
-  "name": "covid19",
+  "name": "covid19-geomap",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hashirhussain.github.io/covid19-geomap",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -9,6 +10,7 @@
     "d3-array": "^2.4.0",
     "d3-request": "^1.0.6",
     "d3-scale": "^3.2.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-map-gl": "^5.2.3",
@@ -16,7 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
