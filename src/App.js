@@ -6,7 +6,9 @@ import InformationPanel from "./information-panel";
 import { updatePercentiles } from "./utils";
 
 const getCovid19Data = async () => {
-  const response = await fetch("https://coronavirus-tracker-api.herokuapp.com/v2/locations?timelines=0");
+  const response = await fetch(
+    "https://coronavirus-tracker-api.herokuapp.com/v2/locations?timelines=0"
+  );
   return response.json();
 };
 
@@ -38,7 +40,7 @@ export default class App extends Component {
       (error, geoData) => {
         if (!error) {
           getCovid19Data().then((covid19Data) => {
-            const data = updatePercentiles(geoData, covid19Data)
+            const data = updatePercentiles(geoData, covid19Data);
             this._loadData(data);
           });
         }
@@ -49,22 +51,23 @@ export default class App extends Component {
 
   _setViewport = (viewport) => this.setState({ viewport });
 
-  _onHover = event => {
+  _onHover = (event) => {
     const {
       features,
-      srcEvent: {offsetX, offsetY}
+      srcEvent: { offsetX, offsetY },
     } = event;
-    const hoveredFeature = features && features.find(f => f.layer.id === 'data');
+    const hoveredFeature =
+      features && features.find((f) => f.layer.id === "data");
 
-    this.setState({hoveredFeature, x: offsetX, y: offsetY});
+    this.setState({ hoveredFeature, x: offsetX, y: offsetY });
   };
 
   _renderTooltip() {
-    const {hoveredFeature, x, y} = this.state;
+    const { hoveredFeature, x, y } = this.state;
 
     return (
       hoveredFeature && (
-        <div className="tooltip" style={{left: x, top: y}}>
+        <div className="tooltip" style={{ left: x, top: y }}>
           <div>Country: {hoveredFeature.properties.name}</div>
           <div>Confirmed Cases: {hoveredFeature.properties.value}</div>
         </div>
@@ -91,7 +94,7 @@ export default class App extends Component {
           </Source>
           {this._renderTooltip()}
         </ReactMapGL>
-        <InformationPanel/>
+        <InformationPanel />
       </div>
     );
   }
