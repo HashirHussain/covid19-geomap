@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covid19-geomap/static/css/main.2cd6e4ec.chunk.css",
+    "main.js": "/covid19-geomap/static/js/main.7aed2d02.chunk.js",
+    "main.js.map": "/covid19-geomap/static/js/main.7aed2d02.chunk.js.map",
+    "runtime-main.js": "/covid19-geomap/static/js/runtime-main.f58b574d.js",
+    "runtime-main.js.map": "/covid19-geomap/static/js/runtime-main.f58b574d.js.map",
+    "static/js/2.8f6c962d.chunk.js": "/covid19-geomap/static/js/2.8f6c962d.chunk.js",
+    "static/js/2.8f6c962d.chunk.js.map": "/covid19-geomap/static/js/2.8f6c962d.chunk.js.map",
+    "index.html": "/covid19-geomap/index.html",
+    "precache-manifest.f518c5e27405da69cf0c9b802304f852.js": "/covid19-geomap/precache-manifest.f518c5e27405da69cf0c9b802304f852.js",
+    "service-worker.js": "/covid19-geomap/service-worker.js",
+    "static/css/main.2cd6e4ec.chunk.css.map": "/covid19-geomap/static/css/main.2cd6e4ec.chunk.css.map",
+    "static/js/2.8f6c962d.chunk.js.LICENSE.txt": "/covid19-geomap/static/js/2.8f6c962d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f58b574d.js",
+    "static/js/2.8f6c962d.chunk.js",
+    "static/css/main.2cd6e4ec.chunk.css",
+    "static/js/main.7aed2d02.chunk.js"
+  ]
+}
