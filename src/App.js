@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactMapGL, { Source, Layer } from "react-map-gl";
 import { json as requestJson } from "d3-request";
+
 import { dataLayer } from "./map-style.js";
 import InformationPanel from "./information-panel";
 import { updatePercentiles } from "./utils";
