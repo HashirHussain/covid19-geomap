@@ -1,9 +1,25 @@
 import React, { PureComponent } from "react";
+import { FaInfo, FaTimes } from 'react-icons/fa';
 
 export default class InformationPanel extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOpen: true
+    }
+
+    this._toggleMenu = this._toggleMenu.bind(this);
+  }
+  _toggleMenu() {
+      this.setState({isOpen: !this.state.isOpen});
+  }
   render() {
     return (
-      <div className="information-panel">
+      <React.Fragment>
+        <div className="information-icon" onClick={this._toggleMenu}>
+          {this.state.isOpen ? <FaTimes/> : <FaInfo/>}
+        </div>
+        {this.state.isOpen ? <div className="information-panel">
         <h4>COVID19 geographical outbreaks Country wise</h4>
         <ul>
           <li style={{ background: "#d53e4f" }}>Highest confirmed cases</li>
@@ -28,7 +44,8 @@ export default class InformationPanel extends PureComponent {
             Hashir Hussain
           </a>
         </p>
-      </div>
+      </div> : <div/>}
+      </React.Fragment>
     );
   }
 }
