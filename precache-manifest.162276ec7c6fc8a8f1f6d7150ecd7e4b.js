@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aefe94fcd0f82e5e4cb35261835d4d9a",
+    "revision": "3580f700c207f70ae2ab82b44bb2b98e",
     "url": "/covid19-geomap/index.html"
   },
   {
-    "revision": "1c508640291ca0974f63",
+    "revision": "5fdd6a113859fe142a29",
     "url": "/covid19-geomap/static/css/main.c6951ecc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid19-geomap/static/js/2.baf03391.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c508640291ca0974f63",
-    "url": "/covid19-geomap/static/js/main.2b03fe1e.chunk.js"
+    "revision": "5fdd6a113859fe142a29",
+    "url": "/covid19-geomap/static/js/main.09b5f0c8.chunk.js"
   },
   {
     "revision": "7b766c16319e46a0b542",
