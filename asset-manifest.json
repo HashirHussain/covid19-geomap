@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/covid19-geomap/static/css/main.c6951ecc.chunk.css",
-    "main.js": "/covid19-geomap/static/js/main.589f3577.chunk.js",
-    "main.js.map": "/covid19-geomap/static/js/main.589f3577.chunk.js.map",
+    "main.js": "/covid19-geomap/static/js/main.2b03fe1e.chunk.js",
+    "main.js.map": "/covid19-geomap/static/js/main.2b03fe1e.chunk.js.map",
     "runtime-main.js": "/covid19-geomap/static/js/runtime-main.f58b574d.js",
     "runtime-main.js.map": "/covid19-geomap/static/js/runtime-main.f58b574d.js.map",
-    "static/js/2.59db5b28.chunk.js": "/covid19-geomap/static/js/2.59db5b28.chunk.js",
-    "static/js/2.59db5b28.chunk.js.map": "/covid19-geomap/static/js/2.59db5b28.chunk.js.map",
+    "static/js/2.baf03391.chunk.js": "/covid19-geomap/static/js/2.baf03391.chunk.js",
+    "static/js/2.baf03391.chunk.js.map": "/covid19-geomap/static/js/2.baf03391.chunk.js.map",
     "index.html": "/covid19-geomap/index.html",
-    "precache-manifest.5bb7a7e39a46053f70d8f9e83a841ed9.js": "/covid19-geomap/precache-manifest.5bb7a7e39a46053f70d8f9e83a841ed9.js",
+    "precache-manifest.9571d0a41ccecbf85ce230069ee9609f.js": "/covid19-geomap/precache-manifest.9571d0a41ccecbf85ce230069ee9609f.js",
     "service-worker.js": "/covid19-geomap/service-worker.js",
     "static/css/main.c6951ecc.chunk.css.map": "/covid19-geomap/static/css/main.c6951ecc.chunk.css.map",
-    "static/js/2.59db5b28.chunk.js.LICENSE.txt": "/covid19-geomap/static/js/2.59db5b28.chunk.js.LICENSE.txt"
+    "static/js/2.baf03391.chunk.js.LICENSE.txt": "/covid19-geomap/static/js/2.baf03391.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f58b574d.js",
-    "static/js/2.59db5b28.chunk.js",
+    "static/js/2.baf03391.chunk.js",
     "static/css/main.c6951ecc.chunk.css",
-    "static/js/main.589f3577.chunk.js"
+    "static/js/main.2b03fe1e.chunk.js"
   ]
 }
