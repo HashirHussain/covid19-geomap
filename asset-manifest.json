@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/covid19-geomap/static/css/main.2cd6e4ec.chunk.css",
-    "main.js": "/covid19-geomap/static/js/main.7aed2d02.chunk.js",
-    "main.js.map": "/covid19-geomap/static/js/main.7aed2d02.chunk.js.map",
+    "main.css": "/covid19-geomap/static/css/main.c6951ecc.chunk.css",
+    "main.js": "/covid19-geomap/static/js/main.589f3577.chunk.js",
+    "main.js.map": "/covid19-geomap/static/js/main.589f3577.chunk.js.map",
     "runtime-main.js": "/covid19-geomap/static/js/runtime-main.f58b574d.js",
     "runtime-main.js.map": "/covid19-geomap/static/js/runtime-main.f58b574d.js.map",
-    "static/js/2.8f6c962d.chunk.js": "/covid19-geomap/static/js/2.8f6c962d.chunk.js",
-    "static/js/2.8f6c962d.chunk.js.map": "/covid19-geomap/static/js/2.8f6c962d.chunk.js.map",
+    "static/js/2.59db5b28.chunk.js": "/covid19-geomap/static/js/2.59db5b28.chunk.js",
+    "static/js/2.59db5b28.chunk.js.map": "/covid19-geomap/static/js/2.59db5b28.chunk.js.map",
     "index.html": "/covid19-geomap/index.html",
-    "precache-manifest.b7e9d6cbe306c9a288830dfef31c67e8.js": "/covid19-geomap/precache-manifest.b7e9d6cbe306c9a288830dfef31c67e8.js",
+    "precache-manifest.5bb7a7e39a46053f70d8f9e83a841ed9.js": "/covid19-geomap/precache-manifest.5bb7a7e39a46053f70d8f9e83a841ed9.js",
     "service-worker.js": "/covid19-geomap/service-worker.js",
-    "static/css/main.2cd6e4ec.chunk.css.map": "/covid19-geomap/static/css/main.2cd6e4ec.chunk.css.map",
-    "static/js/2.8f6c962d.chunk.js.LICENSE.txt": "/covid19-geomap/static/js/2.8f6c962d.chunk.js.LICENSE.txt"
+    "static/css/main.c6951ecc.chunk.css.map": "/covid19-geomap/static/css/main.c6951ecc.chunk.css.map",
+    "static/js/2.59db5b28.chunk.js.LICENSE.txt": "/covid19-geomap/static/js/2.59db5b28.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f58b574d.js",
-    "static/js/2.8f6c962d.chunk.js",
-    "static/css/main.2cd6e4ec.chunk.css",
-    "static/js/main.7aed2d02.chunk.js"
+    "static/js/2.59db5b28.chunk.js",
+    "static/css/main.c6951ecc.chunk.css",
+    "static/js/main.589f3577.chunk.js"
   ]
 }
