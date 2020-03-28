@@ -65,21 +65,43 @@ export default class App extends Component {
 
   _renderTooltip() {
     const { hoveredFeature, x, y } = this.state;
-
-    return (
-      hoveredFeature && (
-        <div className="tooltip" style={{ left: x, top: y }}>
-          <div>Country: {hoveredFeature.properties.name}</div>
-          <div>Confirmed Cases: {hoveredFeature.properties.value}</div>
-        </div>
-      )
-    );
+    if (hoveredFeature) {
+      if (hoveredFeature.properties.hasRecords) {
+        const {
+          name,
+          confirmed,
+          deaths,
+          last_updated,
+        } = hoveredFeature.properties;
+        var _date = new Date(last_updated);
+        return (
+          hoveredFeature && (
+            <div className="tooltip" style={{ left: x, top: y }}>
+              <div>Country: {name}</div>
+              <div>Confirmed Cases: {confirmed}</div>
+              <div>Deaths: {deaths}</div>
+              <div>Last Update: {_date.toUTCString()}</div>
+            </div>
+          )
+        );
+      } else {
+        return (
+          <div className="tooltip" style={{ left: x, top: y }}>
+            Records not found for {hoveredFeature.properties.name}
+          </div>
+        );
+      }
+    }
   }
 
   render() {
     const { viewport, data } = this.state;
     if (!data) {
-      return <div>Fetching records, this may take upto few seconds...</div>;
+      return (
+        <div>
+          Fetching records, this may take upto 45 seconds for the first time...
+        </div>
+      );
     }
 
     return (
