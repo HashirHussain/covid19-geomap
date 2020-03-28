@@ -5,7 +5,7 @@ export default class InformationPanel extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      isOpen: true
+      isOpen: false
     }
 
     this._toggleMenu = this._toggleMenu.bind(this);

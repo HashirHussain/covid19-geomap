@@ -99,7 +99,7 @@ export default class App extends Component {
     if (!data) {
       return (
         <div>
-          Fetching records, this may take upto 45 seconds for the first time...
+          Fetching records, this may take few seconds for the first time...
         </div>
       );
     }
